@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T03:28:08.171Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="arjfeA_NjRrjKrUyz_d6" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T03:30:19.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="4bVGpLIYPIYP2n0HbYl4" version="22.0.8" type="github">
   <diagram name="第 1 页" id="f5xDAh3WusYo4ijW3h7b">
-    <mxGraphModel dx="1451" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1741" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="4zLw2y3MGfTPbHIul2Go-37" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="176" y="923" width="570" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="4zLw2y3MGfTPbHIul2Go-38" value="属性特征" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="4zLw2y3MGfTPbHIul2Go-38" value="属性特征" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="349" y="1210" width="130" height="200" as="geometry">
             <mxRectangle x="280" y="370" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -21,7 +21,7 @@
         <mxCell id="4zLw2y3MGfTPbHIul2Go-39" value="1:user_id&lt;br&gt;&lt;br&gt;2:产品&lt;br&gt;&lt;br&gt;3:年龄&lt;br&gt;&lt;br&gt;4:城市&lt;br&gt;&lt;br&gt;5:性别&lt;br&gt;&lt;br&gt;6:手机价格" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="4zLw2y3MGfTPbHIul2Go-38" vertex="1">
           <mxGeometry y="26" width="130" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="4zLw2y3MGfTPbHIul2Go-40" value="7/30d序列特征" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="4zLw2y3MGfTPbHIul2Go-40" value="7/30d序列特征" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="521" y="1210" width="180" height="200" as="geometry">
             <mxRectangle x="280" y="370" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -37,7 +37,7 @@
         <mxCell id="4zLw2y3MGfTPbHIul2Go-43" value="1:属性特征&lt;br&gt;&lt;br&gt;2:序列特征" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="4zLw2y3MGfTPbHIul2Go-42" vertex="1">
           <mxGeometry y="26" width="120" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="4zLw2y3MGfTPbHIul2Go-44" value="特征归一" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="4zLw2y3MGfTPbHIul2Go-44" value="特征归一" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="349" y="943" width="130" height="200" as="geometry">
             <mxRectangle x="280" y="370" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -45,7 +45,7 @@
         <mxCell id="4zLw2y3MGfTPbHIul2Go-45" value="1:异常值处理&lt;br&gt;vv等取值范围不固定的特征超过一定阈值归一化到固定取值范围&lt;br&gt;&lt;br&gt;2:非0/1值处理&lt;br&gt;非0/1值特征如vv等转成多维0/1向量进行分桶" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="4zLw2y3MGfTPbHIul2Go-44" vertex="1">
           <mxGeometry y="26" width="130" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="4zLw2y3MGfTPbHIul2Go-46" value="特征向量化" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="4zLw2y3MGfTPbHIul2Go-46" value="特征向量化" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="521" y="943" width="190" height="200" as="geometry">
             <mxRectangle x="280" y="370" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -75,10 +75,10 @@
         <mxCell id="4zLw2y3MGfTPbHIul2Go-60" value="1:Hard-parameter sharing&lt;br&gt;基于共享表示，多个相关任务放在一起学习&lt;br&gt;&lt;br&gt;2:MMOE&lt;br&gt;为每一个模型目标设置一个gate，gate用来选择每个expert的信号占比" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="4zLw2y3MGfTPbHIul2Go-59" vertex="1">
           <mxGeometry y="26" width="120" height="214" as="geometry" />
         </mxCell>
-        <mxCell id="4zLw2y3MGfTPbHIul2Go-71" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" parent="1" vertex="1">
+        <mxCell id="4zLw2y3MGfTPbHIul2Go-71" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="631" width="156" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="4zLw2y3MGfTPbHIul2Go-72" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" parent="1" vertex="1">
+        <mxCell id="4zLw2y3MGfTPbHIul2Go-72" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="526" y="631" width="210" height="230" as="geometry" />
         </mxCell>
         <mxCell id="4zLw2y3MGfTPbHIul2Go-73" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" parent="1" vertex="1">
@@ -159,7 +159,7 @@
             <mxPoint x="454.75" y="686" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4zLw2y3MGfTPbHIul2Go-101" value="Hard-parameter sharing" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="4zLw2y3MGfTPbHIul2Go-101" value="Hard-parameter sharing" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="626" width="156" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4zLw2y3MGfTPbHIul2Go-102" value="Expert1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -240,7 +240,7 @@
             <mxPoint x="675.19" y="696" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4zLw2y3MGfTPbHIul2Go-127" value="MMOE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="4zLw2y3MGfTPbHIul2Go-127" value="MMOE" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="526" y="626" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4zLw2y3MGfTPbHIul2Go-129" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -287,7 +287,7 @@
         <mxCell id="9_TiKbL8aG8ugw_iiqsg-9" value="1:Reward&lt;br&gt;环境返回的真实的标签，作为reward&lt;br&gt;&lt;br&gt;2:Loss&lt;br&gt;计算网络预测的Q值与LABEL之间的LOSS，用来更新网络参数" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="9_TiKbL8aG8ugw_iiqsg-8">
           <mxGeometry y="26" width="120" height="214" as="geometry" />
         </mxCell>
-        <mxCell id="9_TiKbL8aG8ugw_iiqsg-10" value="Reward" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="9_TiKbL8aG8ugw_iiqsg-10" value="Reward" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="356" y="310" width="130" height="240" as="geometry">
             <mxRectangle x="280" y="370" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -295,7 +295,7 @@
         <mxCell id="9_TiKbL8aG8ugw_iiqsg-11" value="R1:搜索渗透&lt;br&gt;用户当天是否使用搜索&lt;br&gt;&lt;br&gt;R2:底bar仅搜&lt;br&gt;用户当天是否使用底bar发起搜索，且没有通过其他入口使用搜索&lt;br&gt;&lt;br&gt;R3:精选页/发现页vv&lt;br&gt;用户当天在主站精选页或者极速版发现页的vv" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="9_TiKbL8aG8ugw_iiqsg-10">
           <mxGeometry y="26" width="130" height="214" as="geometry" />
         </mxCell>
-        <mxCell id="9_TiKbL8aG8ugw_iiqsg-12" value="Loss" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="9_TiKbL8aG8ugw_iiqsg-12" value="Loss" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="526" y="310" width="170" height="240" as="geometry">
             <mxRectangle x="280" y="370" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
