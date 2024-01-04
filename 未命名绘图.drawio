@@ -1,56 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T03:09:24.028Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Stw-hNv8qy_TEMOy7AFk" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T07:20:59.768Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6yrDfFirTTlmfAwgrF1B" version="22.1.16" type="github">
   <diagram name="第 1 页" id="rKivnOdDJAFtJSjHdzWO">
-    <mxGraphModel dx="901" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2071" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RI4B-3obot8MsITl3LLx-1" value="目标网络\(\overline&lt;br&gt;\theta\)&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="490" width="80" height="80" as="geometry" />
+        <mxCell id="2qncGRn--N-9Oo_SDniq-1" value="\(a = \mu_\theta&lt;br&gt;(s) \)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-433" y="390" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-2" value="目标网络\(\overline&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;\omega\)&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="280" width="80" height="80" as="geometry" />
+        <mxCell id="RI4B-3obot8MsITl3LLx-1" value="目标网络\(\overline&lt;br&gt;\theta\)&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="-403" y="450" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RI4B-3obot8MsITl3LLx-2" value="目标网络\(\overline&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;\omega\)&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=60;" parent="1" vertex="1">
+          <mxGeometry x="-453" y="280" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RI4B-3obot8MsITl3LLx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RI4B-3obot8MsITl3LLx-4" target="RI4B-3obot8MsITl3LLx-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-4" value="Q网络\(\omega\)" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="320" width="80" height="80" as="geometry" />
+        <mxCell id="RI4B-3obot8MsITl3LLx-4" value="Q网络\(\omega\)" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-493" y="310" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-5" value="策略网络\(\theta\)" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="530" width="80" height="80" as="geometry" />
+        <mxCell id="RI4B-3obot8MsITl3LLx-5" value="策略网络\(\theta\)" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-438" y="480" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RI4B-3obot8MsITl3LLx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RI4B-3obot8MsITl3LLx-8" target="RI4B-3obot8MsITl3LLx-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-8" value="\(S,S^{\prime}&lt;br&gt;\)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="200" y="650" width="80" height="80" as="geometry" />
+        <mxCell id="RI4B-3obot8MsITl3LLx-8" value="\(s,s^{\prime}&lt;br&gt;\)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=50;" parent="1" vertex="1">
+          <mxGeometry x="-488" y="610" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-9" value="\(Q_\omega(s,a)\)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="190" width="80" height="60" as="geometry" />
+        <mxCell id="RI4B-3obot8MsITl3LLx-9" value="\(Q_\omega(s,a)\)" style="rounded=0;whiteSpace=wrap;html=1;opacity=50;" parent="1" vertex="1">
+          <mxGeometry x="-503" y="220" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RI4B-3obot8MsITl3LLx-8" target="RI4B-3obot8MsITl3LLx-5" edge="1">
+        <mxCell id="RI4B-3obot8MsITl3LLx-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RI4B-3obot8MsITl3LLx-8" target="RI4B-3obot8MsITl3LLx-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="490" as="sourcePoint" />
-            <mxPoint x="440" y="440" as="targetPoint" />
+            <mxPoint x="-313" y="460" as="sourcePoint" />
+            <mxPoint x="-263" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RI4B-3obot8MsITl3LLx-5" target="RI4B-3obot8MsITl3LLx-4" edge="1">
+        <mxCell id="RI4B-3obot8MsITl3LLx-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RI4B-3obot8MsITl3LLx-5" target="RI4B-3obot8MsITl3LLx-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="520" as="sourcePoint" />
-            <mxPoint x="440" y="470" as="targetPoint" />
+            <mxPoint x="-313" y="490" as="sourcePoint" />
+            <mxPoint x="-450" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2qncGRn--N-9Oo_SDniq-1" value="\(a = \mu_\theta&lt;br&gt;(s) \)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="410" width="80" height="60" as="geometry" />
+        <mxCell id="2qncGRn--N-9Oo_SDniq-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;\(算法流程：\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;(1)\(初始化Critic网络Q_\omega(s,a),与Actor网络\mu_\theta(s)\)&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;(2)\(复制相同的参数到对应目标网络Q_\overline\omega(s,a)，&lt;br&gt;\mu_\overline\theta(s)\)&lt;br&gt;&lt;br&gt;(3)\(初始化经验回放池replaybuffer\)&lt;br&gt;\(R = \{\\(s, a, r, s^\prime\\)\}\)&lt;br&gt;&lt;br&gt;\((4)循环执行\)&lt;br&gt;\((4.1)根据当前状态s,当前策略\mu,随机噪声\epsilon,&amp;nbsp;\)&lt;br&gt;\(选择动作a =&amp;nbsp;\mu_\theta(s) + \epsilon\)&lt;br&gt;\((4.2)执行动作a,获得奖励r,进入新的状态s^\prime\)&lt;br&gt;\((4.3)将(s, a, r, s^\prime)存入R\)&lt;br&gt;\((4.4)从R中采样n个四元组，\)&lt;br&gt;\(对每个元组使用目标网络分别计算\)&lt;br&gt;\(y_i = r+\gamma Q_\overline\omega(s^\prime,\mu_\overline\theta(s^\prime)&amp;nbsp;)\)&lt;br&gt;\((4.5)最小化目标损失，以更新Critic 网络\)&lt;br&gt;\(L=\frac{1}{n}\sum_{1}^{n}(y_i-Q_\omega(s,a))^2\)&lt;br&gt;\((4.6)计算采样的策略梯度，以更新Actor网络\)" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="-813" y="230" width="293" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="2qncGRn--N-9Oo_SDniq-2" value="\(replaybuffer = \{\\(s, a, r, s^\prime&lt;br&gt;\\)\}\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="190" width="280" height="60" as="geometry" />
+        <mxCell id="2qncGRn--N-9Oo_SDniq-3" value="优化Q网络(参数\(\omega)\)&lt;br&gt;\(Loss = MSE[Q_\omega(s,a), r+\gamma Q_\overline\omega(s^\prime,\mu_\overline\theta(s^\prime))]\)&lt;br&gt;&lt;br&gt;\(next\_q\_values = target\_critic(next\_states, target\_actor(next\_states))\)&lt;br&gt;\(q\_targets = rewards + self.gamma * next\_q\_values * (1 - dones)\)&lt;br&gt;\(critic\_loss = torch.mean(F.mse\_loss(critic(states, actions), q\_targets))\)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=20;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="270" width="480" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2qncGRn--N-9Oo_SDniq-3" value="优化Q网络(参数\(\omega)\)&lt;br&gt;\(Loss = MSE[Q_\omega(s,a), r+\gamma Q_\overline&lt;br&gt;\omega(s^\prime&lt;br&gt;,\mu_\overline&lt;br&gt;\theta&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(s^\prime&lt;br&gt;)&lt;br&gt;)&lt;br&gt;]\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="310" width="280" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2qncGRn--N-9Oo_SDniq-4" value="优化策略网络(参数\(\theta\))&lt;br&gt;\(Loss = -Q_\omega(s,\mu_\theta&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(s)&lt;br&gt;)\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="490" width="280" height="60" as="geometry" />
+        <mxCell id="2qncGRn--N-9Oo_SDniq-4" value="优化策略网络(参数\(\theta\))&lt;br&gt;\(Loss = -Q_\omega(s,\mu_\theta(s))\)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;\(actor\_loss = -torch.mean(critic(states,actor(states))\)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=20;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="460" width="480" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
