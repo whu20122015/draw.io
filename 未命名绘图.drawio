@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T12:50:39.931Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="AmcXPdggzZPr-xXrjbjq" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T03:09:24.028Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Stw-hNv8qy_TEMOy7AFk" version="22.1.16" type="github">
   <diagram name="第 1 页" id="rKivnOdDJAFtJSjHdzWO">
     <mxGraphModel dx="901" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RI4B-3obot8MsITl3LLx-1" value="策略目标网络&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
+        <mxCell id="RI4B-3obot8MsITl3LLx-1" value="目标网络\(\overline&lt;br&gt;\theta\)&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="490" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-2" value="Q目标网络&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
+        <mxCell id="RI4B-3obot8MsITl3LLx-2" value="目标网络\(\overline&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;\omega\)&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RI4B-3obot8MsITl3LLx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RI4B-3obot8MsITl3LLx-4" target="RI4B-3obot8MsITl3LLx-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-4" value="Q网络" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
+        <mxCell id="RI4B-3obot8MsITl3LLx-4" value="Q网络\(\omega\)" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-5" value="策略网络" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
+        <mxCell id="RI4B-3obot8MsITl3LLx-5" value="策略网络\(\theta\)" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="530" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RI4B-3obot8MsITl3LLx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RI4B-3obot8MsITl3LLx-8" target="RI4B-3obot8MsITl3LLx-4" edge="1">
@@ -25,7 +25,7 @@
         <mxCell id="RI4B-3obot8MsITl3LLx-8" value="\(S,S^{\prime}&lt;br&gt;\)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="200" y="650" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RI4B-3obot8MsITl3LLx-9" value="\(Q_w(s,a)\)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="RI4B-3obot8MsITl3LLx-9" value="\(Q_\omega(s,a)\)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="190" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RI4B-3obot8MsITl3LLx-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RI4B-3obot8MsITl3LLx-8" target="RI4B-3obot8MsITl3LLx-5" edge="1">
@@ -41,16 +41,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2qncGRn--N-9Oo_SDniq-1" value="\(a = \mu_\theta&lt;br&gt;(s) \)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="400" width="80" height="60" as="geometry" />
+          <mxGeometry x="290" y="410" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2qncGRn--N-9Oo_SDniq-2" value="\(replaybuffer = \{\\(s, a, r, s\prime&lt;br&gt;\\)\}\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="190" width="200" height="60" as="geometry" />
+        <mxCell id="2qncGRn--N-9Oo_SDniq-2" value="\(replaybuffer = \{\\(s, a, r, s^\prime&lt;br&gt;\\)\}\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2qncGRn--N-9Oo_SDniq-3" value="优化Q网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="310" width="200" height="60" as="geometry" />
+        <mxCell id="2qncGRn--N-9Oo_SDniq-3" value="优化Q网络(参数\(\omega)\)&lt;br&gt;\(Loss = MSE[Q_\omega(s,a), r+\gamma Q_\overline&lt;br&gt;\omega(s^\prime&lt;br&gt;,\mu_\overline&lt;br&gt;\theta&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(s^\prime&lt;br&gt;)&lt;br&gt;)&lt;br&gt;]\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2qncGRn--N-9Oo_SDniq-4" value="优化策略网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="490" width="200" height="60" as="geometry" />
+        <mxCell id="2qncGRn--N-9Oo_SDniq-4" value="优化策略网络(参数\(\theta\))&lt;br&gt;\(Loss = -Q_\omega(s,\mu_\theta&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(s)&lt;br&gt;)\)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="490" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
